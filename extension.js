@@ -106,7 +106,7 @@
         themeLink: null,
         fbLink: null,
         youtubeLink: null,
-        website: "youtube.com",
+        website: "http://youtube.com",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
