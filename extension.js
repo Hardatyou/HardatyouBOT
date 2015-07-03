@@ -58,7 +58,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "HardatyouBOT",
         language: "english",
-        chatLink: "https://github.com/Hardatyou/HardatyouBOT/master/lang/en.json",
+        chatLink: "https://raw.githubusercontent.com/Hardatyou/HardatyouBOT/master/lang/en.json",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
