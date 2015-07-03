@@ -1,7 +1,7 @@
 (function () {
     
     //Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "Hardatyou";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -56,7 +56,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "HardatyouBOT",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
@@ -112,9 +112,9 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/NSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/OPlist.json",
-            BANNED: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/BANNEDlist.json"
+            NSFW: "https://rawgit.com/Hardatyou/basicBot-customization/master/blacklists/NSFWlist.json",
+            OP: "https://rawgit.com/Hardatyou/basicBot-customization/master/blacklists/OPlist.json",
+            BANNED: "https://rawgit.com/Hardatyou/basicBot-customization/master/blacklists/BANNEDlist.json"
         }
     }));
 
